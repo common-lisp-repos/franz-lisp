@@ -15,6 +15,21 @@ The original code is retrived from [Franz Lisp Opus 38.93b][op38.93b] at the
 [CMU AI Repository][ai]. According to the page, that is placed in the public
 domain.
 
+However, since the origin of the code is the Berkeley Software Distribution,
+it would be safer to treat it as distributed under the term of the 4-clause
+BSD License. Thus, I decided to do so. [Kamil Rytarowski pointed it
+out](https://github.com/omasanori/franz-lisp/issues/1#issuecomment-302843065),
+thanks a lot!
+
+Note that, although the 4-clause BSD License is known as a non-OSI-approved and
+GPL-incompatible license because of the clause 3 aka "advertising clause", [UCB
+have declared that the clause 3 is no longer effective for their code in
+BSD](ftp://ftp.cs.berkeley.edu/pub/4bsd/README.Impt.License.Change), so Franz
+Lisp in this repository is essentially under the term of the 3-clause BSD
+License that is OSI-approved and GPL-compatible.
+
+Also, this repository contains no code from AT&T.
+
 ## A Short Guide
 
 The `doc/` directory contains the Franz Lisp manual written in roff. The
